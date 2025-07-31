@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<game>
+	<roles>
+		<role name="Carla"/>
+		<role name="David"/>
+	</roles>
+	<board width="4" height="6">
+		<sea/><sea/><sea/><sea/>
+		<village/><village/><village/><village/>
+		<desert/><desert/><desert/><desert/>
+		<forest/><forest/><forest/><forest/>
+		<mountain/><mountain/><mountain/><mountain/>
+		<plain/><plain/><plain/><plain/>
+	</board>
+	<turns>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="spawn" x="1" y="1" />
+			<unit id="2" role="Carla" type="soldier"  action="spawn" x="2" y="1" />
+			<unit id="3" role="David" type="mage"     action="spawn" x="3" y="1" />
+			<unit id="4" role="Carla" type="catapult" action="spawn" x="4" y="1" />
+		</turn>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="move_to" x="1" y="2" />
+			<unit id="2" role="Carla" type="soldier"  action="move_to" x="2" y="2" />
+			<unit id="3" role="David" type="mage"     action="move_to" x="3" y="2" />
+			<unit id="4" role="Carla" type="catapult" action="hold"    x="4" y="1" />
+		</turn>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="move_to" x="1" y="3" />
+			<unit id="2" role="Carla" type="soldier"  action="move_to" x="2" y="3" />
+			<unit id="3" role="David" type="mage"     action="move_to" x="3" y="3" />
+			<unit id="4" role="Carla" type="catapult" action="hold"    x="4" y="1" />
+		</turn>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="move_to" x="1" y="4" />
+			<unit id="2" role="Carla" type="soldier"  action="move_to" x="2" y="4" />
+			<unit id="3" role="David" type="mage"     action="move_to" x="3" y="4" />
+			<unit id="4" role="Carla" type="catapult" action="hold"    x="4" y="1" />
+		</turn>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="move_to" x="1" y="5" />
+			<unit id="2" role="Carla" type="soldier"  action="move_to" x="2" y="5" />
+			<unit id="3" role="David" type="mage"     action="move_to" x="3" y="5" />
+			<unit id="4" role="Carla" type="catapult" action="hold"    x="4" y="1" />
+		</turn>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="move_to" x="1" y="6" />
+			<unit id="2" role="Carla" type="soldier"  action="move_to" x="2" y="6" />
+			<unit id="3" role="David" type="mage"     action="move_to" x="3" y="6" />
+			<unit id="4" role="Carla" type="catapult" action="hold"    x="4" y="1" />
+		</turn>
+		<turn>
+			<unit id="1" role="David" type="archer"   action="hold" x="1" y="6" />
+			<unit id="2" role="Carla" type="soldier"  action="hold" x="2" y="6" />
+			<unit id="3" role="David" type="mage"     action="hold" x="3" y="6" />
+			<unit id="4" role="Carla" type="catapult" action="hold" x="4" y="1" />
+		</turn>
+	</turns>
+</game>

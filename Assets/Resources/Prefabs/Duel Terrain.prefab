@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &828125369508884648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530311733849427026}
+  - component: {fileID: 3896127117124248}
+  - component: {fileID: 4254879520416862926}
+  - component: {fileID: 492987486463363041}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530311733849427026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828125369508884648}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2676660115500259007}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!218 &3896127117124248
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828125369508884648}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: c1b2cf39544b0fc48b4b7174144ffdf2, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!154 &4254879520416862926
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828125369508884648}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: c1b2cf39544b0fc48b4b7174144ffdf2, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!114 &492987486463363041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828125369508884648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87268177ff116d146a0b84b5283ad04a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environmentXMLFile: {fileID: 4900000, guid: 6832fe5378598e941b732c5dcff9b274, type: 3}
+  scale: 16
+  flattenRadius: 10
+  flattenHeight: 0.5
+  smoothRadius: 3.3
+  rockLayer: {fileID: 8574412962073106934, guid: 0726a9d41d2ce9a42bbca6e4a851de39, type: 2}
+  grassLayer: {fileID: 8574412962073106934, guid: 9ab7ed43f7dec2e49831eda4db0ee1e8, type: 2}
+  forestLayer: {fileID: 8574412962073106934, guid: 26823bf985aab6f4ca7baa1093998679, type: 2}
+  desertLayer: {fileID: 8574412962073106934, guid: 60545e307e2fe3146ba39e6bd5453379, type: 2}
+  villageLayer: {fileID: 8574412962073106934, guid: 64fbf15d8b29c544298835a681a8ccd5, type: 2}
+  waterLayer: {fileID: 8574412962073106934, guid: b0599b90555e3e042a156a070e5fc054, type: 2}
+  rockPrefab: {fileID: 1000011949594382, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+  treePrefab: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
+  housePrefab: {fileID: 100000, guid: 1bbb91c8d96cb2446a07151ce95d1f0f, type: 3}
+--- !u!1 &1429202780853313233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5616974155644481054}
+  m_Layer: 0
+  m_Name: PlayerSoldierSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5616974155644481054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429202780853313233}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.18353386, z: -0, w: 0.9830134}
+  m_LocalPosition: {x: 62.08, y: 0, z: 59.83}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2676660115500259007}
+  m_LocalEulerAnglesHint: {x: 0, y: -21.151, z: 0}
+--- !u!1 &8608033798533741163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2676660115500259007}
+  - component: {fileID: 1820677410386806217}
+  m_Layer: 0
+  m_Name: Duel Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2676660115500259007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608033798533741163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1530311733849427026}
+  - {fileID: 5616974155644481054}
+  - {fileID: 4084034356375064857}
+  - {fileID: 3249502657165558003}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1820677410386806217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608033798533741163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31d13984981371489a85ec50d05c1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainGenerator: {fileID: 492987486463363041}
+  soldier1SpawnPoint: {fileID: 0}
+  soldier2SpawnPoint: {fileID: 0}
+  playerSoldierSpawnPoint: {fileID: 5616974155644481054}
+  playerSoldier: {fileID: 0}
+--- !u!1001 &7688749019297476683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2676660115500259007}
+    m_Modifications:
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.59003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.794617
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.54832155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8362676
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -113.496
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437151609118112744, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_Name
+      value: DuelSoldier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437151609118112744, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_TagString
+      value: HoldingSoldier
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+--- !u!4 &4084034356375064857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+  m_PrefabInstance: {fileID: 7688749019297476683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9153010541800415649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2676660115500259007}
+    m_Modifications:
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.149357
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.855675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.76716334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6414518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -280.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437151609118112744, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_Name
+      value: DuelSoldier (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437151609118112744, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+      propertyPath: m_TagString
+      value: AttackingSoldier
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+--- !u!4 &3249502657165558003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5917320775678943570, guid: acff2788b66918d4cbc8c22e9960f91e, type: 3}
+  m_PrefabInstance: {fileID: 9153010541800415649}
+  m_PrefabAsset: {fileID: 0}

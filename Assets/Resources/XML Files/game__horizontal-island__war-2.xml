@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<game>
+	<roles>
+		<role name="Bruno"/>
+		<role name="Ana"/>
+	</roles>
+	<board width="4" height="4">
+		<sea/><sea/><sea/><sea/>
+		<village/><mountain/><mountain/><desert/>
+		<forest/><forest/><forest/><forest/>
+		<mountain/><mountain/><mountain/><mountain/>
+	</board>
+	<turns>
+		<turn>
+			<unit id="1" role="Bruno" type="archer"   action="spawn" x="1" y="1" />
+			<unit id="2" role="Ana"   type="archer"   action="spawn" x="4" y="1" />
+			<unit id="3" role="Bruno" type="soldier"  action="spawn" x="1" y="2" />
+			<unit id="4" role="Ana"   type="soldier"  action="spawn" x="3" y="2" />
+			<unit id="5" role="Bruno" type="mage"     action="spawn" x="1" y="3" />
+			<unit id="6" role="Ana"   type="mage"     action="spawn" x="4" y="3" />
+			<unit id="7" role="Bruno" type="catapult" action="spawn" x="1" y="4" />
+			<unit id="8" role="Ana"   type="catapult" action="spawn" x="4" y="4" />
+		</turn>
+		<turn>
+			<unit id="1" role="Bruno" type="archer"   action="move_to" x="2" y="1" />
+			<unit id="2" role="Ana"   type="archer"   action="move_to" x="3" y="1" />
+			<unit id="3" role="Bruno" type="soldier"  action="move_to" x="2" y="2" />
+			<unit id="4" role="Ana"   type="soldier"  action="move_to" x="2" y="2" />
+			<unit id="5" role="Bruno" type="mage"     action="move_to" x="2" y="3" />
+			<unit id="6" role="Ana"   type="mage"     action="move_to" x="3" y="3" />
+			<unit id="7" role="Bruno" type="catapult" action="hold" x="1" y="4" />
+			<unit id="8" role="Ana"   type="catapult" action="hold" x="4" y="4" />
+		</turn>
+		<turn>
+			<unit id="1" role="Bruno" type="archer"   action="hold"   x="2" y="1" />
+			<unit id="2" role="Ana"   type="archer"   action="attack" x="2" y="1" />
+			<unit id="3" role="Bruno" type="soldier"  action="hold"   x="2" y="2" />
+			<unit id="4" role="Ana"   type="soldier"  action="attack" x="2" y="2" />
+			<unit id="5" role="Bruno" type="mage"     action="hold"   x="2" y="3" />
+			<unit id="6" role="Ana"   type="mage"     action="attack" x="2" y="3" />
+			<unit id="7" role="Bruno" type="catapult" action="hold"   x="1" y="4" />
+			<unit id="8" role="Ana"   type="catapult" action="attack" x="1" y="4" />
+		</turn>
+		<turn>
+			<unit id="2" role="Ana" type="archer"   action="hold" x="3" y="1" />
+			<unit id="4" role="Ana" type="soldier"  action="hold" x="2" y="2" />
+			<unit id="6" role="Ana" type="mage"     action="hold" x="3" y="3" />
+			<unit id="8" role="Ana" type="catapult" action="hold" x="4" y="4" />
+		</turn>
+	</turns>
+</game>

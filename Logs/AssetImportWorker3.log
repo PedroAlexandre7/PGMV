@@ -1,0 +1,1624 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 14060 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/pedro/Documents/Documents - Pessoal/Estudo/Universidade/UC's/4º Ano - 2º Semestre/PGMV - Programação e Geração de Mundos Virtuais/Projeto/Entrega/PGMV
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52749
+Successfully changed project path to: C:/Users/pedro/Documents/Documents - Pessoal/Estudo/Universidade/UC's/4º Ano - 2º Semestre/PGMV - Programação e Geração de Mundos Virtuais/Projeto/Entrega/PGMV
+C:/Users/pedro/Documents/Documents - Pessoal/Estudo/Universidade/UC's/4º Ano - 2º Semestre/PGMV - Programação e Geração de Mundos Virtuais/Projeto/Entrega/PGMV
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13860] Host "[IP] 10.94.213.210 [Port] 0 [Flags] 2 [Guid] 352565080 [EditorId] 352565080 [Version] 1048832 [Id] WindowsEditor(7,Lenovo-do-Pedro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13860] Host "[IP] 10.94.213.210 [Port] 0 [Flags] 2 [Guid] 352565080 [EditorId] 352565080 [Version] 1048832 [Id] WindowsEditor(7,Lenovo-do-Pedro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 29.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pedro/Documents/Documents - Pessoal/Estudo/Universidade/UC's/4º Ano - 2º Semestre/PGMV - Programação e Geração de Mundos Virtuais/Projeto/Entrega/PGMV/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     7030 MB
+    Driver:   32.0.101.5542
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029612 seconds.
+- Loaded All Assemblies, in  0.812 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1423ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+
+- Loaded All Assemblies, in  0.827 seconds
+Refreshing native plugins compatible for Editor in 7.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.TypeInitializationException: The type initializer for 'Unity.Cloud.Collaborate.ToolbarButton' threw an exception. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file) [0x0001b] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Codice.Utils.LocalizationTranslator`1[T]..ctor (System.String fileName, System.String culture) [0x00052] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:59 
+   --- End of inner exception stack trace ---
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.345 seconds
+Domain Reload Profiling: 2169ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1346ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (996ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (796ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3671 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (187.2 KB). Loaded Objects now: 4159.
+Memory consumption went from 160.2 MB to 160.0 MB.
+Total: 4.684900 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.243900 ms MarkObjects: 3.703700 ms  DeleteObjects: 0.296200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 694102.665442 seconds.
+  path: Assets/Baker House/Models/Materials/Baker_house_snow.mat
+  artifactKey: Guid(edbb61ce7eb50e94cba6fa630e32a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker House/Models/Materials/Baker_house_snow.mat using Guid(edbb61ce7eb50e94cba6fa630e32a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c9816eeb69d6a22b203007f49e82b7') in 0.301790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Heroes and Animations/Catapult/ae541dd33539_A_simple_wooden_cat.fbx
+  artifactKey: Guid(fa66445deae3c944b9a326e86c8858e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes and Animations/Catapult/ae541dd33539_A_simple_wooden_cat.fbx using Guid(fa66445deae3c944b9a326e86c8858e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a50b52058e2058da8b5423e23a1b76') in 0.175634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Resources/Materials/Force Field Purple.mat
+  artifactKey: Guid(ee3c296a9ad38d047b9ce01cc11fe954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Force Field Purple.mat using Guid(ee3c296a9ad38d047b9ce01cc11fe954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673962949feaccd29433b052964142bb') in 0.048695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Heroes and Animations/Mixamo/FemaleFitA_Body_diffuse.png
+  artifactKey: Guid(fb3abb0e9a513cc4e964c28f1d0ad26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes and Animations/Mixamo/FemaleFitA_Body_diffuse.png using Guid(fb3abb0e9a513cc4e964c28f1d0ad26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a28f3ad44603093d087ea5b75d92b6') in 0.078020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Materials/Mesh/Materials/M_Rock_03.mat
+  artifactKey: Guid(88ef1516ae02a114ca607c539b261934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Mesh/Materials/M_Rock_03.mat using Guid(88ef1516ae02a114ca607c539b261934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9b650ecf5638b4da10cf6a2584a470') in 0.046679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Materials/Minimap/Textures/catapult (1).png
+  artifactKey: Guid(a02b9d19106472e4ba91bb0a45912bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Minimap/Textures/catapult (1).png using Guid(a02b9d19106472e4ba91bb0a45912bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd1e9b721c37f4506d7d95c7cea7ad0') in 0.039353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Heroes and Animations/Mixamo/Bow_DIFF.jpg
+  artifactKey: Guid(8cabefc9c79b1714e9131045b9bc96e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes and Animations/Mixamo/Bow_DIFF.jpg using Guid(8cabefc9c79b1714e9131045b9bc96e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d54e794f0ea8d78c79616ab2255aa21') in 0.046534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Baker House/Textures/Baker_house.tif
+  artifactKey: Guid(87eda9aa615f5e246ba04794b538dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker House/Textures/Baker_house.tif using Guid(87eda9aa615f5e246ba04794b538dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30cf30e7348cd92dddd5d7560ca4d63') in 0.045183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.147201 seconds.
+  path: Assets/Resources/Materials/Minimap/Textures/soldier.png
+  artifactKey: Guid(a4c360fb68c7a5344b9117484a5f9399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Minimap/Textures/soldier.png using Guid(a4c360fb68c7a5344b9117484a5f9399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8902907838ecc3a1894e76914dfd326b') in 0.075377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Resources/Materials/Stand.mat
+  artifactKey: Guid(2a5d0d6f5c4c73d4abe9491a6e152805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Stand.mat using Guid(2a5d0d6f5c4c73d4abe9491a6e152805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b54d2e9a0475cf7d7413150d3de3354') in 0.066062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Resources/Materials/Textures/Village Color.jpg
+  artifactKey: Guid(95cf191b4fec2644eb4c0ffc4bb5f0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Textures/Village Color.jpg using Guid(95cf191b4fec2644eb4c0ffc4bb5f0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeb78b4562c2bb10a51df35a1da44a2') in 0.048276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Materials/Textures/Village Normal.jpg
+  artifactKey: Guid(a6b2a4e7e021f75418fb10884962d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Textures/Village Normal.jpg using Guid(a6b2a4e7e021f75418fb10884962d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7399788d275e1d0d2e10882af4a5f9') in 0.058013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Prefabs/tree_Textures/shadow.png
+  artifactKey: Guid(947992bb291e74c4194fc58f3d7fb485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/tree_Textures/shadow.png using Guid(947992bb291e74c4194fc58f3d7fb485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458ee0eaeb1bbacedb12eb03b94b4777') in 0.037504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Prefabs/Units/Unit.prefab
+  artifactKey: Guid(6356b1f91a7d2cd419905c1e56ef5913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Units/Unit.prefab using Guid(6356b1f91a7d2cd419905c1e56ef5913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b316fbf04b3c8900b2a98e5cf6b3021e') in 0.055807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Prefabs/tree_Textures/normal_specular.png
+  artifactKey: Guid(d1826f5bd2b324c4aa36b5faacc20035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/tree_Textures/normal_specular.png using Guid(d1826f5bd2b324c4aa36b5faacc20035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88186298564a701403839706a6680857') in 0.042722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Prefabs/Units/Mage.prefab
+  artifactKey: Guid(177eedde107cea6479a96060310dd6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Units/Mage.prefab using Guid(177eedde107cea6479a96060310dd6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a98030ef02207e4b624f557791469d4') in 0.105784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Materials/Textures/waterLayer.terrainlayer
+  artifactKey: Guid(b0599b90555e3e042a156a070e5fc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Textures/waterLayer.terrainlayer using Guid(b0599b90555e3e042a156a070e5fc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f00bed438f271ffeecc1c14981683c') in 0.057494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_03_N.TGA
+  artifactKey: Guid(765b9916ad5a87c4f96e84023311598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Texture/T_Rock_03_N.TGA using Guid(765b9916ad5a87c4f96e84023311598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ef6d7a7472dde4f9521d56eb0cfe2d') in 0.049157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/Materials/Textures/Forest Normal.png
+  artifactKey: Guid(015affc24ad2ddd40be8a22fbd924e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Textures/Forest Normal.png using Guid(015affc24ad2ddd40be8a22fbd924e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac2b1295a7576592083c5fed396f2d') in 0.051987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Tavern stuff/Heroes/Warrior 3/Prefab/sword.prefab
+  artifactKey: Guid(8662c4f7fc0bc6144ae78a23aab1887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Heroes/Warrior 3/Prefab/sword.prefab using Guid(8662c4f7fc0bc6144ae78a23aab1887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41911479b81801b27b346e2d2d91ab08') in 0.079692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tavern stuff/Heroes/Warrior 3/Texture/Weapon/sword1_Base_Color.tga
+  artifactKey: Guid(d41ff5a8eec522a4da285b7f4d363bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Heroes/Warrior 3/Texture/Weapon/sword1_Base_Color.tga using Guid(d41ff5a8eec522a4da285b7f4d363bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e00d304ab3f9115ff3c7bf4e6a4100') in 0.048527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Prefabs/Units/Catapult.prefab
+  artifactKey: Guid(32795fbc66134e3419f0ab4a4b346cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Units/Catapult.prefab using Guid(32795fbc66134e3419f0ab4a4b346cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea058ee0c147c1d89a0493d4c5d54ee9') in 0.085326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Prefabs/Rock.prefab
+  artifactKey: Guid(75fa8bf3a73ee6b4da0c7a2c6d3db6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Rock.prefab using Guid(75fa8bf3a73ee6b4da0c7a2c6d3db6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51c79e207f6e7b591a7a54202165b6e') in 0.062137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/Materials/Textures/Plain Normal.jpg
+  artifactKey: Guid(6087566b6ecfa534682adea6e791e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Textures/Plain Normal.jpg using Guid(6087566b6ecfa534682adea6e791e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cb0e3fd48c7ed92daad028bd64b77d') in 0.048634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Prefabs/house.prefab
+  artifactKey: Guid(1bbb91c8d96cb2446a07151ce95d1f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/house.prefab using Guid(1bbb91c8d96cb2446a07151ce95d1f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3481c441b4697d02a0a763d06037b5a8') in 0.055849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Materials/Textures/villageLayer.terrainlayer
+  artifactKey: Guid(64fbf15d8b29c544298835a681a8ccd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Textures/villageLayer.terrainlayer using Guid(64fbf15d8b29c544298835a681a8ccd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809edee267958192d3aadcb800148425') in 0.048134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_03_D.TGA
+  artifactKey: Guid(0f51354c336ddcb449e55ce5b7f20266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Texture/T_Rock_03_D.TGA using Guid(0f51354c336ddcb449e55ce5b7f20266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411cde26a530b9b14374fa45fcfb512e') in 0.043797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Prefabs/DuelSoldier.prefab
+  artifactKey: Guid(acff2788b66918d4cbc8c22e9960f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DuelSoldier.prefab using Guid(acff2788b66918d4cbc8c22e9960f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed2227ab147f4b1c9147d9887a7eba9') in 0.208583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 239
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Materials/Mountain.mat
+  artifactKey: Guid(d7d3bca2b661523409e36263e055f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Mountain.mat using Guid(d7d3bca2b661523409e36263e055f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975edfccd34f20f917e6104428e1abbc') in 0.063595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tavern stuff/Heroes/Warrior 3/Texture/Weapon/sword1_Metallic.tga
+  artifactKey: Guid(a060dc5332fd57945abfdf4dec1ed07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Heroes/Warrior 3/Texture/Weapon/sword1_Metallic.tga using Guid(a060dc5332fd57945abfdf4dec1ed07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67d8e14ae1619d3854aae0be4d36244') in 0.046111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/Prefabs/Attacks/sword_RetopoGroup5.prefab
+  artifactKey: Guid(8da4f4cf9678a9d4d903a94defe73981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Attacks/sword_RetopoGroup5.prefab using Guid(8da4f4cf9678a9d4d903a94defe73981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b450341d22107b3be91d812aceb60bb') in 0.061506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tavern stuff/Heroes/Warrior 3/Base mesh/Weapon/Materials/sword1.mat
+  artifactKey: Guid(2404d55d146d741418b81895e8c1736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Heroes/Warrior 3/Base mesh/Weapon/Materials/sword1.mat using Guid(2404d55d146d741418b81895e8c1736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9106811ccd662c3a370d9381d734094') in 0.044668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.904086 seconds.
+  path: Assets/Tavern stuff/Heroes/Warrior 3/Texture/Weapon/sword1_Normal_OpenGL.tga
+  artifactKey: Guid(33bbacee3045fac4d81c350087001a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Heroes/Warrior 3/Texture/Weapon/sword1_Normal_OpenGL.tga using Guid(33bbacee3045fac4d81c350087001a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83f5dd7e7f4f175e690f290c56bd31b') in 0.059938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tavern stuff/Historic environment/Wall_1/Texture/Materials/Wall_1_texture.mat
+  artifactKey: Guid(e96f41fa93972474fb7926ac53c3a204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Historic environment/Wall_1/Texture/Materials/Wall_1_texture.mat using Guid(e96f41fa93972474fb7926ac53c3a204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe0177010a942fc0995f8a68f0cefee') in 0.109213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/Laterns and candles/Materials/Latern1.mat
+  artifactKey: Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Laterns and candles/Materials/Latern1.mat using Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47627231d361151c1a484e97004df7fc') in 0.132290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tavern stuff/Historic environment/Barrel/Model/Barrel_6.fbx
+  artifactKey: Guid(4ef822ccde578451ea2a83c5cf3090be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Historic environment/Barrel/Model/Barrel_6.fbx using Guid(4ef822ccde578451ea2a83c5cf3090be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b85643d26b8fcd589b475fd03e32a2') in 0.138344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Tavern stuff/Historic environment/Barrel/Texture/Barrel_NP.png
+  artifactKey: Guid(2ffc60cd8e6c74d79815d32d5a8b24f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Historic environment/Barrel/Texture/Barrel_NP.png using Guid(2ffc60cd8e6c74d79815d32d5a8b24f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e67b6807eb75adde25035e678dae319') in 0.074951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tavern stuff/Historic environment/Barrel/Texture/Barrel_Met.png
+  artifactKey: Guid(83492bf0b73e14c719158bda050674ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Historic environment/Barrel/Texture/Barrel_Met.png using Guid(83492bf0b73e14c719158bda050674ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2642b33fdc9f2a2cd67ee547b1302cc') in 0.032494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tavern stuff/Laterns and candles/Meshes/Latern1.fbx
+  artifactKey: Guid(d78538bd679f6fe4b9bd7c6c1e9c8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Laterns and candles/Meshes/Latern1.fbx using Guid(d78538bd679f6fe4b9bd7c6c1e9c8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbef8f09476026fc66d87ee989492c3b') in 0.121791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tavern stuff/Historic environment/Barrel/Texture/Barrel_AO.png
+  artifactKey: Guid(1246901d99d8249039d9c0c7c1992218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Historic environment/Barrel/Texture/Barrel_AO.png using Guid(1246901d99d8249039d9c0c7c1992218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122c7c0b4d5d81e1cd6084e90e37e1dd') in 0.037268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tavern stuff/Laterns and candles/textures/Candle [Normal].png
+  artifactKey: Guid(a95106e16ef6d234f81030c5607b0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Laterns and candles/textures/Candle [Normal].png using Guid(a95106e16ef6d234f81030c5607b0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202516c880567fa777e2bc9e707007a3') in 0.059049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tavern stuff/Historic environment/Wall_1/Texture/AO.png
+  artifactKey: Guid(35e39f68c573f495490022b7955c59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Historic environment/Wall_1/Texture/AO.png using Guid(35e39f68c573f495490022b7955c59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c2317e680ab3247fdc405e96bcf3bc') in 0.036793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tavern stuff/Laterns and candles/Meshes/ceiling chain.fbx
+  artifactKey: Guid(d119f9920a8205b45b1e51485a2163a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Laterns and candles/Meshes/ceiling chain.fbx using Guid(d119f9920a8205b45b1e51485a2163a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baaff28ebb87077c64ebb24d9972900') in 0.405006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.066953 seconds.
+  path: Assets/Tavern stuff/Laterns and candles/textures/Lustre [Specular].tif
+  artifactKey: Guid(52ddc59f6dc19cc459accd3a4d9fd684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/Laterns and candles/textures/Lustre [Specular].tif using Guid(52ddc59f6dc19cc459accd3a4d9fd684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8af2dc746a15f3a496a962706354493') in 0.049817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Material/Tableware/Plate_01.mat
+  artifactKey: Guid(8efe1e182a7097b4fa1337bce81fa518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Material/Tableware/Plate_01.mat using Guid(8efe1e182a7097b4fa1337bce81fa518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81991d08c651da4b2b149845d18d44fe') in 0.051189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Textures/Tableware/jug_01_NORMAL.png
+  artifactKey: Guid(657b87910f72d704896a420e9f334659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Textures/Tableware/jug_01_NORMAL.png using Guid(657b87910f72d704896a420e9f334659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6eef1a143bffbeed57b85e11c1c3e7') in 0.038353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Prefabs/Tableware/Plate_01.prefab
+  artifactKey: Guid(737755ded67dca042ab01806f71f63ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Prefabs/Tableware/Plate_01.prefab using Guid(737755ded67dca042ab01806f71f63ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83df64979be92552f060b288cdff421') in 0.036110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Specular.tga
+  artifactKey: Guid(566df9f6026672f4f88e86910eb3eaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Specular.tga using Guid(566df9f6026672f4f88e86910eb3eaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fc6d8115f59a8bad95ef198e3b509d') in 0.033334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Specular.tga
+  artifactKey: Guid(426f4e656c2e75445ad0d77d2cc9e224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Specular.tga using Guid(426f4e656c2e75445ad0d77d2cc9e224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08f0f09227c018e56289624188152e7') in 0.045083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Textures/Tableware/jug_01_ALBEDO.png
+  artifactKey: Guid(57da25a682488ad489630817b15be19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Textures/Tableware/jug_01_ALBEDO.png using Guid(57da25a682488ad489630817b15be19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab726f0ffefbc3512ba1e28457036419') in 0.038000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors/BatchOfDecors.mat
+  artifactKey: Guid(56e93d00f6e7ac54e846a47bee120c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors/BatchOfDecors.mat using Guid(56e93d00f6e7ac54e846a47bee120c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2526a92ae903f9aa2849a75d9c4fec3c') in 0.051180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Normal.tga
+  artifactKey: Guid(0908f2ad4ca048a4c9a7a6d2a95ac3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Normal.tga using Guid(0908f2ad4ca048a4c9a7a6d2a95ac3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73663c0632c31db5749523f19a38b468') in 0.035251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2 .fbx
+  artifactKey: Guid(232a44914592a284a828532c59df3dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2 .fbx using Guid(232a44914592a284a828532c59df3dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790f0fe81cfb5ab105ba6bb2935f384c') in 0.200699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Specular.tga
+  artifactKey: Guid(fdc0753005df5fb45a901e1d47409a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Specular.tga using Guid(fdc0753005df5fb45a901e1d47409a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e047b341c690efb4f2e8848eee956aa') in 0.032657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Chair/Chair_Specular.tga
+  artifactKey: Guid(54bc8eebd2c60ca47b5b1692960e91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Chair/Chair_Specular.tga using Guid(54bc8eebd2c60ca47b5b1692960e91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe6df74c587cdaab128cb85074bd221') in 0.031481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Prefabs/Tableware/Jug_01.prefab
+  artifactKey: Guid(41c2416439f912f4e89bd6b1167f45e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Prefabs/Tableware/Jug_01.prefab using Guid(41c2416439f912f4e89bd6b1167f45e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ff263e1d5cdca0ae9c6209c3d22d5b') in 0.035995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 3/Batch of Decors 3.mat
+  artifactKey: Guid(f17ec661b889fd941a4a333de0a4b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 3/Batch of Decors 3.mat using Guid(f17ec661b889fd941a4a333de0a4b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec826c0daccda7f37e9fd83af187a1d') in 0.042818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Apple/Materials/Default.mat
+  artifactKey: Guid(6785778cfd5d6984d851a49d08898041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Apple/Materials/Default.mat using Guid(6785778cfd5d6984d851a49d08898041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78fc101a43f05988336b6b21c002936') in 0.042066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/JawMaster/JawMaster_Albedo.tga
+  artifactKey: Guid(c0b6aaa59b319ce498e249f820a080dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/JawMaster/JawMaster_Albedo.tga using Guid(c0b6aaa59b319ce498e249f820a080dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6564125ab507b3083f8df09d67ec6f7b') in 0.034146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Normal.tga
+  artifactKey: Guid(fb296a6f8ac13724392a9234cc3752c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Normal.tga using Guid(fb296a6f8ac13724392a9234cc3752c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2504d88ccd4e4e3e9e8262b1bd8635') in 0.028870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Ladle/Ladle_Albedo.tga
+  artifactKey: Guid(2e18f62baf849e44ebc867670aa8dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Ladle/Ladle_Albedo.tga using Guid(2e18f62baf849e44ebc867670aa8dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf08737b4c6d10a55a365d848247a3f') in 0.031207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Loot/LootMaterial.mat
+  artifactKey: Guid(82b6907273defac4bbe69c1e5dbe7991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Loot/LootMaterial.mat using Guid(82b6907273defac4bbe69c1e5dbe7991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7c1cb608842ae50f2608aa25be4a39') in 0.043546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Occlusion.tga
+  artifactKey: Guid(9079fbdd7a9edd34ba095c9910f549df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Occlusion.tga using Guid(9079fbdd7a9edd34ba095c9910f549df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a760201d0dd133796e940d0d590d2e') in 0.033591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/LanternGlass_Albedo.tga
+  artifactKey: Guid(3008e942583ddf547af9aed9262314b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/LanternGlass_Albedo.tga using Guid(3008e942583ddf547af9aed9262314b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8faf63458800255345407ec9153dbb7') in 0.036131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/Lantern_Albedo.tga
+  artifactKey: Guid(b39d7b9261d61e443bec33c2123d9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/Lantern_Albedo.tga using Guid(b39d7b9261d61e443bec33c2123d9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b134a03cd2ae36dbce5d3999429c658') in 0.031601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Occlusion.tga
+  artifactKey: Guid(224f7a883b3e97d40bfb1a04b7e487f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Occlusion.tga using Guid(224f7a883b3e97d40bfb1a04b7e487f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580af427fa307c816d464c4b55e0a2ae') in 0.029991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag).obj
+  artifactKey: Guid(9bebd9c58badd4642bfbddb9cc5a386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag).obj using Guid(9bebd9c58badd4642bfbddb9cc5a386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64272f027afdf85919b145b9b673ba2') in 0.089250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor_Specular.tga
+  artifactKey: Guid(aa61aeb59a39d264385287b67d0b21fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor_Specular.tga using Guid(aa61aeb59a39d264385287b67d0b21fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77435809827e29c5c5900e2354e5ee7a') in 0.027986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor_Normal.tga
+  artifactKey: Guid(6b3eb3d7feb0fd248865a349ac0b7922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor_Normal.tga using Guid(6b3eb3d7feb0fd248865a349ac0b7922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0805f68bd5c2d022e36f23a1514ec84') in 0.028374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Material/Ornaments/Chandelier_01.mat
+  artifactKey: Guid(34c3f3537d5ee484e8b28afe7dc0fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Material/Ornaments/Chandelier_01.mat using Guid(34c3f3537d5ee484e8b28afe7dc0fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7a2967d239a9f8adde6940e0b13100') in 0.042599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/WantedPosters.mat
+  artifactKey: Guid(7d155d3290d24b34786f4e10003ca5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/WantedPosters.mat using Guid(7d155d3290d24b34786f4e10003ca5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98dacdbd39bd5465ec66d9c477c96b4') in 0.039775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Apple/AppleRed_Occlusion.tga
+  artifactKey: Guid(f41a3e2e951ca8b49a512ca2c85badb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Apple/AppleRed_Occlusion.tga using Guid(f41a3e2e951ca8b49a512ca2c85badb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdaee22df160a2b4053115a7c6dbf61') in 0.034499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor.fbx
+  artifactKey: Guid(27b147df08d763243af888dfb0ed7366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor.fbx using Guid(27b147df08d763243af888dfb0ed7366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6531f37c1cd6f44c116b3a4f53fc53fa') in 0.123916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/Tankard.prefab
+  artifactKey: Guid(db9ce3c9875b73342a2f74e76fb702f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/Tankard.prefab using Guid(db9ce3c9875b73342a2f74e76fb702f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be18ea4633e0f537363e97adbf76b31e') in 0.038134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756f7c291147a75e95d0f4a0d9e7e56') in 0.072223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu_Normal.tga
+  artifactKey: Guid(0f4fdc03c95b8ce4598e7181c9f8d7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu_Normal.tga using Guid(0f4fdc03c95b8ce4598e7181c9f8d7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd6578d80e83ee59a2c83e4d074697') in 0.041594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/Objects with FX/FirePlace.prefab
+  artifactKey: Guid(0120696b197baa24f933e17ce5431cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/Objects with FX/FirePlace.prefab using Guid(0120696b197baa24f933e17ce5431cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdc9717ddb5239ffa25438bdc1b0546') in 0.153584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/Pollybu.prefab
+  artifactKey: Guid(6a87146b6ade0f14093322506fc00a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/Pollybu.prefab using Guid(6a87146b6ade0f14093322506fc00a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400dd0a68f1521b212bff2a4722b21a7') in 0.060664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/PirateDagger.prefab
+  artifactKey: Guid(db904bb2c0e42ef469bff818921c49fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/PirateDagger.prefab using Guid(db904bb2c0e42ef469bff818921c49fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22989a0c600769322f6429a629456a8') in 0.077036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Window/Window_Occlusion.tga
+  artifactKey: Guid(e21b6afb4d3536a4492d2dae2eba5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Window/Window_Occlusion.tga using Guid(e21b6afb4d3536a4492d2dae2eba5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41805a2e5fa79201df8ac7593247d02f') in 0.043076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Fish/Fish.mat
+  artifactKey: Guid(bd0caab83c815a941b46f2f26bf1a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Fish/Fish.mat using Guid(bd0caab83c815a941b46f2f26bf1a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8411157b0e7894ce7a68a4293e5863e') in 0.041247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Fish/Fish_Occlusion.tga
+  artifactKey: Guid(bf75598193a8d084fa60660990fa512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Fish/Fish_Occlusion.tga using Guid(bf75598193a8d084fa60660990fa512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37df1133408c163f8a506c3690d369') in 0.045190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor_Albedo.tga
+  artifactKey: Guid(b26f2d25a25c31147a1d8e69a05fe0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TavernDoor/TavernDoor_Albedo.tga using Guid(b26f2d25a25c31147a1d8e69a05fe0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3881be04ae87a74d483b1ee594f6e61f') in 0.034660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/Furnishings/LargeRoundTable.prefab
+  artifactKey: Guid(5e5ff3f0c335b83438b02a4f1020a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/Furnishings/LargeRoundTable.prefab using Guid(5e5ff3f0c335b83438b02a4f1020a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56431e8b5238b0c19dca35a4dea22e34') in 0.046167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/SimpleBottle.prefab
+  artifactKey: Guid(8eb84f58a0e2f7a4591b34186281a1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/SimpleBottle.prefab using Guid(8eb84f58a0e2f7a4591b34186281a1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b974870721a2abb1c1ce8212c2e6bb') in 0.032175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Plank and Beam/PAB_Occlusion.tga
+  artifactKey: Guid(5816c0cd301cbf341ad1beddaa07c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Plank and Beam/PAB_Occlusion.tga using Guid(5816c0cd301cbf341ad1beddaa07c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf48059ff9fd1fad2ca1f256b28a799') in 0.028996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Bench/Bench_Albedo.tga
+  artifactKey: Guid(c7b3a52e5ecb1cd43bee921c3bca961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Bench/Bench_Albedo.tga using Guid(c7b3a52e5ecb1cd43bee921c3bca961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2761a7a1ed02dd0b72fc7479071397') in 0.037575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass.obj
+  artifactKey: Guid(b95462f2060745e439e576adc5ecbe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass.obj using Guid(b95462f2060745e439e576adc5ecbe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5125a4751972f1f45deb6d03a1666c62') in 0.070621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass_Occlusion.tga
+  artifactKey: Guid(bd31c62a759545c4f852455c67424fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass_Occlusion.tga using Guid(bd31c62a759545c4f852455c67424fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d71c73338fc285b6393318b43afb5e') in 0.028050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/FireCamp/FireCamp_Emission.tga
+  artifactKey: Guid(ea65d8aace8bd314ea00280a4dfda9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/FireCamp/FireCamp_Emission.tga using Guid(ea65d8aace8bd314ea00280a4dfda9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b73d848fa839256e0b376fce32cc17') in 0.030226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Loot/Loot.fbx
+  artifactKey: Guid(995cc63524c24874aa10bdc2d95e07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Loot/Loot.fbx using Guid(995cc63524c24874aa10bdc2d95e07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d6d7cac39fa12e3fe3e6708dd0b3ef') in 0.214216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Specular.tga
+  artifactKey: Guid(df1fc31c39dc7094aa4eb948fe8e50c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Specular.tga using Guid(df1fc31c39dc7094aa4eb948fe8e50c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0575c02d7ca8e4816fca22b1f49d1a3a') in 0.035181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf_Albedo.tga
+  artifactKey: Guid(6b9207bce0f02374aa87555ddf1c6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf_Albedo.tga using Guid(6b9207bce0f02374aa87555ddf1c6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adeb91d8d05f4a293a74eac278a36aa') in 0.058408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/LargeTable/LargeTable_Normal.tga
+  artifactKey: Guid(b48be7400f9fb6448986f1af5b13e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/LargeTable/LargeTable_Normal.tga using Guid(b48be7400f9fb6448986f1af5b13e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c7d66df4fa35dcd3e8b79907f0cdf5') in 0.025791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass.mat
+  artifactKey: Guid(00b32e07ec65100428ed2156dec25ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass.mat using Guid(00b32e07ec65100428ed2156dec25ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd12b7f0a61234bb5a1947c56f4dce22') in 0.033048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Chair/Chair_Albedo.tga
+  artifactKey: Guid(d50b9869739dd9d458718541650d1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Chair/Chair_Albedo.tga using Guid(d50b9869739dd9d458718541650d1866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecdb752c1956aa7628a6a06c36354a4') in 0.024010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Firewood/Firewood2_Specular.tga
+  artifactKey: Guid(93c0480a1066dc441b80f77d8b6b0f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Firewood/Firewood2_Specular.tga using Guid(93c0480a1066dc441b80f77d8b6b0f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7e388368b66a561634be69d73a23c8') in 0.026106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu_Specular.tga
+  artifactKey: Guid(c866ac9ece021964486edb355d3c2550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu_Specular.tga using Guid(c866ac9ece021964486edb355d3c2550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf5c289742195ed4eaa6f1f092d00c4') in 0.025557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Torch/Torch_Normal.tga
+  artifactKey: Guid(73acae9b942f5d341a4f0656f3ad4c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Torch/Torch_Normal.tga using Guid(73acae9b942f5d341a4f0656f3ad4c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3f6efa3231edb90edba00af4a0dc8a') in 0.031423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Plank and Beam/PlankAndBeamMaterial.mat
+  artifactKey: Guid(8e5e0e38d0188b64b995a984c4557308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Plank and Beam/PlankAndBeamMaterial.mat using Guid(8e5e0e38d0188b64b995a984c4557308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb5e59f023a6d2b7d366f491fbdd4c3') in 0.034938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Occlusion.tga
+  artifactKey: Guid(a658f59c4cc7a954aa6e6267c27707f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Occlusion.tga using Guid(a658f59c4cc7a954aa6e6267c27707f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe23479969b0d1bf7f4d944551a584e') in 0.023918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/AppleRed.prefab
+  artifactKey: Guid(e9208149138941f4788c0a2b2a11ed45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/AppleRed.prefab using Guid(e9208149138941f4788c0a2b2a11ed45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592779e691d67eb1f1d4bce5f872d43a') in 0.033654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/Objects with FX/Lantern.prefab
+  artifactKey: Guid(782ab5f5e0855824bad70d1af527e689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/Objects with FX/Lantern.prefab using Guid(782ab5f5e0855824bad70d1af527e689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e576e5c401ce8b3f2c2dff141e85c4') in 0.058879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Specular.tga
+  artifactKey: Guid(0a8de5abd0b028341904f0a81746270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Specular.tga using Guid(0a8de5abd0b028341904f0a81746270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b05bb5f3bede027648e91dd52fe7b4c') in 0.025858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Specular.tga
+  artifactKey: Guid(fd6cfa5432db2b442a7fe65f2d4c38db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Specular.tga using Guid(fd6cfa5432db2b442a7fe65f2d4c38db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8dfa53dd48ad7b1952bd0a133d760f') in 0.026381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Occlusion.tga
+  artifactKey: Guid(4b79866e2dd56a846892e2c6b5f7d3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Occlusion.tga using Guid(4b79866e2dd56a846892e2c6b5f7d3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6657e556befa5be53408eb6a824ab7f') in 0.028281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Pear/Pear_Specular.tga
+  artifactKey: Guid(a83bc9fc9e5df1340847e96f0c42560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Pear/Pear_Specular.tga using Guid(a83bc9fc9e5df1340847e96f0c42560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9943b4260819adc15f5e1297cd5669e7') in 0.023783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Window/Window_Specular2.tga
+  artifactKey: Guid(0d2a1c4e7c5f3dc409d56a3066db24da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Window/Window_Specular2.tga using Guid(0d2a1c4e7c5f3dc409d56a3066db24da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8099a64677cd639a7fa835b4cbac39f1') in 0.026878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/ThatTable/ThatTable_Albedo.tga
+  artifactKey: Guid(daf35be5368499847901c12f4348878e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/ThatTable/ThatTable_Albedo.tga using Guid(daf35be5368499847901c12f4348878e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7c61ebdbf3f438370eea80dd9e13fa') in 0.034110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu_Albedo.tga
+  artifactKey: Guid(7659e6b7c5e045a489312f599d2351f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu_Albedo.tga using Guid(7659e6b7c5e045a489312f599d2351f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a043f2d6a2d0184c0513b962a4bd5b59') in 0.024505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/JawMaster.prefab
+  artifactKey: Guid(8a86120174a9e51418167d774b32df53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/JawMaster.prefab using Guid(8a86120174a9e51418167d774b32df53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73c69f0ac5f9b0ebc24aab0edd4eb55') in 0.032861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/WantedPosters .fbx
+  artifactKey: Guid(090c3a1ec4b0a8f4bb615d51080a510a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Wanted Posters/WantedPosters .fbx using Guid(090c3a1ec4b0a8f4bb615d51080a510a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03e2c15c6a56e73cecf58266092ae7') in 0.129812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/FireCamp/FireCamp_Occlusion.tga
+  artifactKey: Guid(62a8a2d314e1dc74b80aa22b85a5eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/FireCamp/FireCamp_Occlusion.tga using Guid(62a8a2d314e1dc74b80aa22b85a5eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c03bc0872507d10567ffdce5c0b373') in 0.028292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/Furnishings/TheShelf.prefab
+  artifactKey: Guid(de52fd126fad4f34899d4e2aeb6d5b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/Furnishings/TheShelf.prefab using Guid(de52fd126fad4f34899d4e2aeb6d5b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f4d4c440b27430c1cdf08a5e06f01f') in 0.038972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/FireCamp/FireCamp_Height.tga
+  artifactKey: Guid(1399c3bba32571e408f3f910c6328c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/FireCamp/FireCamp_Height.tga using Guid(1399c3bba32571e408f3f910c6328c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7976889a8d39c2492720f31a59b6e3ca') in 0.031864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Loot/Loot_Occlusion.tga
+  artifactKey: Guid(24554e64967c632478dcb44b93018454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Loot/Loot_Occlusion.tga using Guid(24554e64967c632478dcb44b93018454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fdd1565f85f1a4ca12dfd667d32f4b') in 0.029546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/BagOfCoin.prefab
+  artifactKey: Guid(ec3612db315436542916441acccdf3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/SmallDecors/BagOfCoin.prefab using Guid(ec3612db315436542916441acccdf3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35b7ac26361f69f78c6d5cc4eebe760') in 0.041440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu.obj
+  artifactKey: Guid(577fe2276cce82741a3637a4f64980ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Pollybu/Pollybu.obj using Guid(577fe2276cce82741a3637a4f64980ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f691fc7fa374f955589e4962b5ae0d8') in 0.073528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Window/Window.obj
+  artifactKey: Guid(3caaa88da5952d34f91ceb3a0ee2f431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Window/Window.obj using Guid(3caaa88da5952d34f91ceb3a0ee2f431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5502328202f8d7cad35af48db16a35ae') in 0.145408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Albedo.tga
+  artifactKey: Guid(d9e7368001cb09d488992e6c2876453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Albedo.tga using Guid(d9e7368001cb09d488992e6c2876453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629b051c10a82731658df29b08cd99c9') in 0.029432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass_Specular.tga
+  artifactKey: Guid(8595be58d9f6c504eb62931125e719b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Howards Compass/Howards Compass_Specular.tga using Guid(8595be58d9f6c504eb62931125e719b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c58c24d91d3ff4ee11fa923304097f') in 0.025981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Albedo.tga
+  artifactKey: Guid(9e861f10f242de549bb4c46f443cbaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Albedo.tga using Guid(9e861f10f242de549bb4c46f443cbaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c0d4b90062870e2f615bf5880d3f25') in 0.030240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Fish/Fish_Specular.tga
+  artifactKey: Guid(bd2e87298a21e324caa81117353eb6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Fish/Fish_Specular.tga using Guid(bd2e87298a21e324caa81117353eb6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8901a299f994ccbfb054a7fadf327059') in 0.033834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/Lantern_Occlusion.tga
+  artifactKey: Guid(1b5a4e6c297682546adb7771bfe488db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/Lantern_Occlusion.tga using Guid(1b5a4e6c297682546adb7771bfe488db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a6f87fd4c65369b97d4c1cf1eebd2') in 0.027450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Chair/Chair.mat
+  artifactKey: Guid(f8a89ed29488c424d930a74ed414c36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Chair/Chair.mat using Guid(f8a89ed29488c424d930a74ed414c36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93279bc9121121a14f455446e922d412') in 0.046037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf.obj
+  artifactKey: Guid(760734cbf27070d4c9475cbfefa700db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf.obj using Guid(760734cbf27070d4c9475cbfefa700db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4bb755dbfeb3a054309c61267803c7') in 0.060680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/cm_logo_sm.png
+  artifactKey: Guid(5f2a108eb023faf43a809979fd3d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/cm_logo_sm.png using Guid(5f2a108eb023faf43a809979fd3d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5feb04056b21216cb51dee8d975c327') in 0.028139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/FirePlace/FirePlace.mat
+  artifactKey: Guid(79c1be663dba1fa408dc4f12a6b5865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/FirePlace/FirePlace.mat using Guid(79c1be663dba1fa408dc4f12a6b5865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a4789e9a428f251e46884fa6906ed9') in 0.058521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Normal.tga
+  artifactKey: Guid(6b8b7914fb37dd248be2da4a023af8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Normal.tga using Guid(6b8b7914fb37dd248be2da4a023af8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f87912c4ae66fbd620bfdff4c36c81') in 0.030293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Apple/AppleRed_Albedo.tga
+  artifactKey: Guid(9bd7980bd1eb5ce47ab52fe25ed61fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Apple/AppleRed_Albedo.tga using Guid(9bd7980bd1eb5ce47ab52fe25ed61fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfecb9ad542b0d1b6bb763fcc70914e') in 0.031771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tavern stuff/MedievalTavernPack/Textures/Ornaments/chandelier_01_NORMAL.png
+  artifactKey: Guid(695b8fb083b26e74ebceba1d1bc2500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/MedievalTavernPack/Textures/Ornaments/chandelier_01_NORMAL.png using Guid(695b8fb083b26e74ebceba1d1bc2500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a538a1b8146d11b8cd9610d5c4158ca') in 0.037177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf_Specular.tga
+  artifactKey: Guid(1ccfbd2846bcfd64ea76c54d503ca8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf_Specular.tga using Guid(1ccfbd2846bcfd64ea76c54d503ca8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4f90ed52673deb66e855f46907bff8') in 0.032206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/Lantern.mat
+  artifactKey: Guid(6eb9109149976264f98551eaee832ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Lantern/Lantern.mat using Guid(6eb9109149976264f98551eaee832ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492672ad26b1be13e4b7fad055879761') in 0.037000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Plank and Beam/PAB_Normal.tga
+  artifactKey: Guid(8b4c9df7c01869748902649a71999265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Plank and Beam/PAB_Normal.tga using Guid(8b4c9df7c01869748902649a71999265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeba6176f09d2d01942994be67bec329') in 0.026546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/Loot/Loot_Normal.tga
+  artifactKey: Guid(72e1d4946472fd149ad8b65674329fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/Loot/Loot_Normal.tga using Guid(72e1d4946472fd149ad8b65674329fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd751a373063cb334a2cf272e84ab10af') in 0.028272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf.mat
+  artifactKey: Guid(98063969f47e6154bab6ec8d6d93787b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Objects/TheShelf/TheShelf.mat using Guid(98063969f47e6154bab6ec8d6d93787b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5aa3b5d5cfa30b85b3a05f8e5b6912e') in 0.044447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tavern stuff/PollyPrivateers/Prefabs/Part Of House/Wooden_BeamML.prefab
+  artifactKey: Guid(c2fc011b40469e54c91f055945093ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tavern stuff/PollyPrivateers/Prefabs/Part Of House/Wooden_BeamML.prefab using Guid(c2fc011b40469e54c91f055945093ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5b8949e7380067bd1065a7a4fab9d8') in 0.046857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.TypeInitializationException: The type initializer for 'Unity.Cloud.Collaborate.ToolbarButton' threw an exception. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file) [0x0001b] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Codice.Utils.LocalizationTranslator`1[T]..ctor (System.String fileName, System.String culture) [0x00052] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:59 
+   --- End of inner exception stack trace ---
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.867 seconds
+Domain Reload Profiling: 3380ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2869ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (724ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (503ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3628 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.2 KB). Loaded Objects now: 4233.
+Memory consumption went from 158.7 MB to 158.5 MB.
+Total: 7.929300 ms (FindLiveObjects: 0.587300 ms CreateObjectMapping: 0.397500 ms MarkObjects: 6.512900 ms  DeleteObjects: 0.428200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208.090075 seconds.
+  path: Assets/Scenes/clean unused.cs
+  artifactKey: Guid(af9974ba5d285ff488a1eb2def61cd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/clean unused.cs using Guid(af9974ba5d285ff488a1eb2def61cd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150a60923a6d2fd66cba7d75944d3b9a') in 0.004751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+
+- Loaded All Assemblies, in  0.484 seconds
+Refreshing native plugins compatible for Editor in 9.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.TypeInitializationException: The type initializer for 'Unity.Cloud.Collaborate.ToolbarButton' threw an exception. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file) [0x0001b] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Codice.Utils.LocalizationTranslator`1[T]..ctor (System.String fileName, System.String culture) [0x00052] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:59 
+   --- End of inner exception stack trace ---
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.051 seconds
+Domain Reload Profiling: 4532ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (4052ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1609ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (245ms)
+			ProcessInitializeOnLoadAttributes (1174ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (50ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 13.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (152.7 KB). Loaded Objects now: 4253.
+Memory consumption went from 160.7 MB to 160.6 MB.
+Total: 12.701400 ms (FindLiveObjects: 0.791600 ms CreateObjectMapping: 0.380800 ms MarkObjects: 11.107100 ms  DeleteObjects: 0.418500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.TypeInitializationException: The type initializer for 'Unity.Cloud.Collaborate.ToolbarButton' threw an exception. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\pedro\Documents\Documents - Pessoal\Estudo\Universidade\UC's\4º Ano - 2º Semestre\PGMV - Programação e Geração de Mundos Virtuais\Projeto\Entrega\PGMV\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file) [0x0001b] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Codice.Utils.LocalizationTranslator`1[T]..ctor (System.String fileName, System.String culture) [0x00052] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <868e5dc9b3a14edab88aeaa5b0166f37>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:59 
+   --- End of inner exception stack trace ---
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.3.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 33.297 seconds
+Domain Reload Profiling: 33808ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (33298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1237ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (914ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (161.1 KB). Loaded Objects now: 4266.
+Memory consumption went from 162.7 MB to 162.5 MB.
+Total: 5.216100 ms (FindLiveObjects: 0.543200 ms CreateObjectMapping: 0.267500 ms MarkObjects: 4.111100 ms  DeleteObjects: 0.291700 ms)
+
+Prepare: number of updated asset objects reloaded= 14
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1453.018054 seconds.
+  path: Assets/Heroes and Animations/Mage/Mage.fbx
+  artifactKey: Guid(cb90fb44faa59ad428a6f212da54c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes and Animations/Mage/Mage.fbx using Guid(cb90fb44faa59ad428a6f212da54c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33afc4198db27cd0ec017287a3daead3') in 0.394820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Heroes and Animations/Mixamo/Soldier.fbx
+  artifactKey: Guid(487e19fd83142a44a934ce321e03aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes and Animations/Mixamo/Soldier.fbx using Guid(487e19fd83142a44a934ce321e03aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65adb11b044ac0af98677cf354809b13') in 0.087732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 3.366709 seconds.
+  path: Assets/Resources/Prefabs/DuelSoldier.prefab
+  artifactKey: Guid(acff2788b66918d4cbc8c22e9960f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DuelSoldier.prefab using Guid(acff2788b66918d4cbc8c22e9960f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeaeabb02ded2eabf1498c62d83664a') in 0.338471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 239
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/Prefabs/Tavern.prefab
+  artifactKey: Guid(810d05e6b155d8b49a5e0119e5ae6dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Tavern.prefab using Guid(810d05e6b155d8b49a5e0119e5ae6dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508c3f03b298b06383e8eef5d4d138e8') in 2.536478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4110
+========================================================================
+Received Import Request.
+  Time since last request: 3.167730 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 93
+Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 93
+ -> (artifact id: 'd8d0b4c69f72d34c0b52e246161bb5c1') in 0.253041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
