@@ -1,6 +1,6 @@
-# PGMV
+# 3D Board Game Simulator
 
-Vídeo demonstrativo: [Vídeo demonstrativo da Simulação a funcionar](https://youtu.be/Y1yFOuVC5w0)
+Demonstration video: [Demonstration video of the Simulation working](https://youtu.be/Y1yFOuVC5w0)
 
 ## References
 ### Unity Assets:  
